@@ -36,18 +36,32 @@ def realizarEncuesta():
         if(interrogacion == 'si'):
 """            
 #resolviendo el ejercicio 2 con una funcion
+#funcion para obtener al asistente y al profesor de la clase seguna la edad:
 def generarCompañeros(cantidad):
+    #creando una lista de compañeros
     compañeros = []
+
+    #ejecutando un for para pedir los datos de cada compañero
     for i in range(cantidad):
         nombre = input('Ingresa tu nombre: ')
         edad = int(input('Ingresa tu edad: '))
         compañero = (nombre, edad)
+        
+        #agregando la informacion a la lista
         compañeros.append(compañero)
+
+    #ordenando de mayor a menor segun la edad
     compañeros.sort(key=lambda x:x[1])
+
+    #compañeros[x] devuelve una tupla con (nombre, edad) y despues accedemos al nombre para definir al asistente y el profesor 
     asistente = compañeros[0][0]
     profesor = compañeros[-1][0]
+
+    #retornamos una tupla
     return asistente, profesor
 
-
+#desempaquetamos lo que retorna la funcion 
 asistente, profesor = generarCompañeros(5)
+
+#mostramos el resultado
 print(f'el asisente es {asistente} y el profesor es {profesor}')
