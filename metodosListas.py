@@ -3,9 +3,9 @@
 lista = list(['hola', 'nico', 17, 369])
 print(lista)
 
-#metodo len, cuenta la cantidad de elementos de una lista
+#metodo len, cuenta la cantidad de elementos que tiene una lista 
 met_len = len(lista)
-print(met_len)
+print(f'imprimiedo metodo len {met_len}')
 
 
 #metodo append, agrega un dato a la lista 

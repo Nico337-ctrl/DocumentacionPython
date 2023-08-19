@@ -96,7 +96,7 @@ print('\n.---------------------------------.\n')
 
 #creando una funcion con un parametro opcional y uno por defecto
 #el parametro por defecto se asigna directamente en la funcion 
-#el parametro opcional se asigna cuanod llamamos a la funcion 
+#el parametro opcional se asigna cuando llamamos a la funcion 
 #en este caso el parametro por defecto es la variable adjetivo y se le asigna un parametro opcional reemplazando el por defecto cuando se llamda a la funcion
 def datos2(nombre, apellido, adjetivo = 'capo'):
     return f'hola {nombre} {apellido}, eres muy {adjetivo}'

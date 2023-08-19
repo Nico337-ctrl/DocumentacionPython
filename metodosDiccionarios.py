@@ -14,7 +14,7 @@ print(claves)
 met_get = diccionario.get('edad')
 print(met_get)
 
-#metodo pop, elemina clave y valro del diccionario 
+#metodo pop, elemina clave y valor del diccionario 
 met_pop = diccionario.pop('edad')
 print(diccionario)
 #metodo clear, elimina todos las claves y datos del diccionario

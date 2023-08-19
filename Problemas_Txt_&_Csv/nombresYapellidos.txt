@@ -1,0 +1,13 @@
+Los datos son: 
+Nombre: nicolas
+ Apellido: ojeda
+............
+Nombre: pedro
+ Apellido: perez
+............
+Nombre: camilo
+ Apellido: vanegas
+............
+Nombre: victor
+ Apellido: osorio
+............
